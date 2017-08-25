@@ -69,7 +69,7 @@ names(dataset) <- c(measurements_names, "Activity", "Subject")
 ### From the data set in step 4, creates a second, independent tidy data set 
 ### with the average of each variable for each activity and each subject.
 
-dataset$subject <- as.factor(dataset$Subject)
+dataset$Subject <- as.factor(dataset$Subject)
 
 tidyset <- aggregate(.~Activity + Subject, data = dataset, mean)
 write.table(tidyset, file = "tidy.txt", row.names = FALSE)

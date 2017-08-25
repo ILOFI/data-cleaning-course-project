@@ -38,11 +38,27 @@ This script will perform the following steps to get a tidy data:
 
 0. Read necessary data.
 
+   This step just reads all necessary data into memory for used in later steps.
+
 
 1. Merges the training and the test sets to create one data set.
+
+   This step merges the training and test data, including the activity labels and subject id.
+
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
-3. Uses descriptive activity names to name the activities in the data set
+
+   Using `grep` function to find measurements with `mean` or `std`, and subset all the data with these key words.
+
+3. Uses descriptive activity names to name the activities in the data set.
+
+   This step factors the `Activity` column and names the activities correctly according to `activity_labels.txt`.
+
 4. Appropriately labels the data set with descriptive variable names.
+
+   Getting text names subset in step 2, and make column names more descriptive according to lectures using function `gsub`.
+
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+   Make `Subject` column as a factor, and use `aggregate` function to get the the average of each variable for each activity and each subject, finally export this new tidy set to `tidy.txt`.
 
 If no error occurs, you will get a file called `tidy.txt` , which is the required, tidy dataset.
