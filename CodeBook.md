@@ -40,23 +40,23 @@ Referring to the goal of this project, I made some transformation on original da
 
 So, all the variables in this tidy dataset are:
 
-- `TimeBodyAccelerometer(Mean|Std)[XYZ]`
-- `TimeGravityAccelerometer(Mean|Std)[XYX]`
-- `TimeBodyAccelerometerJerk(Mean|Std)[XYZ]`
-- `TimeBodyGyroscope(Mean|Std)[XYZ]`
-- `TimeBodyGyroscopeJerk(Mean|Std)[XYZ]`
-- `TimeBodyAccelerometerMagnitude(Mean|Std)`
-- `TimeGravityAccelerometerMagnitude(Mean|Std)`
-- `TimeBodyAccelerometerJerkMagnitude(Mean|Std)`
-- `TimeBodyGyroscopeMagnitude(Mean|Std)`
-- `TimeBodyGyroscopeJerkMagnitude(Mean|Std)`
-- `FrequencyBodyAccelerometer(Mean|Std)[XYZ]`
-- `FrequencyBodyAccelerometerJerk(Mean|Std)[XYZ]`
-- `FrequencyBodyGyroscope(Mean|Std)[XYZ]`
-- `FrequencyBodyAccelerometerMagnitude(Mean|Std)`
-- `FrequencyBodyBodyAccelerometerJerkMagnitude(Mean|Std)`
-- `FrequencyBodyBodyGyroscopeMagnitude(Mean|Std)`
-- `FrequencyBodyBodyGyroscopeJerkMagnitude(Mean|Std)`
+- `TimeBodyAccelerometer(Mean|Std)[XYZ]` - mean of time body acceleration mean or standard deviation on X/Y/Z axes
+- `TimeGravityAccelerometer(Mean|Std)[XYX]` - mean of time gravity acceleration mean or standard deviation on X/Y/Z axes
+- `TimeBodyAccelerometerJerk(Mean|Std)[XYZ]` - mean of time acceleration jerk mean or standard deviation  on X/Y/Z axes
+- `TimeBodyGyroscope(Mean|Std)[XYZ]` - mean of time body gyroscope mean or standard deviation on X/Y/Z axes
+- `TimeBodyGyroscopeJerk(Mean|Std)[XYZ]` - mean of time body gyroscope jerk mean or standard deviation on X/Y/Z axes
+- `TimeBodyAccelerometerMagnitude(Mean|Std)` - mean of time body acceleration magnitude mean or standard deviation across axes
+- `TimeGravityAccelerometerMagnitude(Mean|Std)` - mean of time gravity acceleration magnitude mean or standard deviation across axes
+- `TimeBodyAccelerometerJerkMagnitude(Mean|Std)` - mean of time acceleration jerk magnitude mean or standard deviation across axes
+- `TimeBodyGyroscopeMagnitude(Mean|Std)` - mean of time body gyroscope magnitude mean or standard deviation across axes
+- `TimeBodyGyroscopeJerkMagnitude(Mean|Std)` - mean of time body gyroscope jerk magnitude mean or standard deviation across axes
+- `FrequencyBodyAccelerometer(Mean|Std)[XYZ]` - mean of frequency body acceleration mean or standard deviation on X/Y/Z axes
+- `FrequencyBodyAccelerometerJerk(Mean|Std)[XYZ]` - mean of frequency acceleration jerk mean or standard deviation on X/Y/Z axes
+- `FrequencyBodyGyroscope(Mean|Std)[XYZ]` - mean of frequency body gyroscope mean or standard deviation on X/Y/Z axes
+- `FrequencyBodyAccelerometerMagnitude(Mean|Std)` - mean of frequency body acceleration magnitude mean or standard deviation across axes
+- `FrequencyBodyBodyAccelerometerJerkMagnitude(Mean|Std)` - mean of frequency acceleration jerk magnitude mean or standard deviation across axes
+- `FrequencyBodyBodyGyroscopeMagnitude(Mean|Std)` - mean of frequency body gyroscope magnitude mean or standard deviation across axes
+- `FrequencyBodyBodyGyroscopeJerkMagnitude(Mean|Std)` - mean of frequency body gyroscope jerk magnitude mean or standard deviation across axes
 
 `[XYZ]` is used to denote one of the 3-axial signals in the X, Y and Z directions.
 
